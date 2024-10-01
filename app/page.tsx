@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Header from "./components/Header";
-import IntroSection from "./sections/introSection";
+import IntroSection from "./sections/IntroSection";
 import TimelineSection from "./sections/TimelineSection";
 
 // 함수 선언식

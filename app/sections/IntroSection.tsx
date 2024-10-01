@@ -2,7 +2,7 @@ import React from "react";
 import portfolioData from "@/app/mocks/portfolioData.json";
 
 // rafce
-const intoSection = () => {
+const IntroSection = () => {
   const { name, nickName, email, githubUrl, blogUrl } =
     portfolioData.introduction;
   return (
@@ -20,4 +20,4 @@ const intoSection = () => {
   );
 };
 
-export default intoSection;
+export default IntroSection;
